@@ -771,6 +771,26 @@ body, .project-card, .faq-item {
   transform: scale(1.03);
 }
 
+.exp-subtitle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 18px;
+  margin-bottom: 25px;
+  border-radius: 12px;
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: #FF4E88;
+  background: #F0F0F0;
+  box-shadow: 0 2px 4px rgba(255, 182, 193, 0.3);
+}
+
+.exp-icon {
+  height: 1.8rem; /* menyesuaikan tinggi teks */
+  width: auto;
+  vertical-align: middle;
+}
+
 
 /* === Responsive === */
 @media (max-width: 768px) {
