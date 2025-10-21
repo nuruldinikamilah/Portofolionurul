@@ -757,6 +757,39 @@ body, .project-card, .faq-item {
   color: #333;
   transition: 0.2s;
 }
+.exp-subtitle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 18px;
+  margin-bottom: 25px;
+  border-radius: 12px;
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: #FF4E88;
+  background: #F0F0F0;
+  box-shadow: 0 2px 4px rgba(255, 182, 193, 0.3);
+}
+
+.exp-icon {
+  height: 1.8rem; /* menyesuaikan tinggi teks */
+  width: auto;
+  vertical-align: middle;
+}
+
+.exp-image {
+  width: 100%;
+  max-width: 420px;
+  margin-top: 10px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.exp-image:hover {
+  transform: scale(1.03);
+}
+
 
 /* === Responsive === */
 @media (max-width: 768px) {
