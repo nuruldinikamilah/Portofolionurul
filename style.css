@@ -711,6 +711,21 @@ body, .project-card, .faq-item {
 .exp-left p {
   color: #000000;
   font-size: 1rem;
+   text-align: justify;
+}
+
+.exp-link {
+  display: inline-block;
+  margin-top: 8px;
+  color: #ff4e88;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.exp-link:hover {
+  color: #ff2d72;
+  text-decoration: underline;
 }
 
 /* === Right Side === */
