@@ -432,6 +432,31 @@ body.dark footer {
   box-shadow: 0 3px 15px rgba(0,0,0,0.08);
   padding: 25px;
   align-items: flex-start;
+  position: relative;
+}
+.project-image-wrapper {
+    position: relative;
+    display: inline-block;
+     padding-top: 50px;
+}
+.project-label {
+    position: absolute;
+    top: 10px;
+ 
+    background: #ffffff;
+    border: 1px solid #f58aa8;
+    color: #f58aa8;
+    padding: 6px 14px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 10px;
+    z-index: 10;
+    
+}
+.tools-used {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #444;
 }
 
 .project-img {
@@ -450,6 +475,19 @@ body.dark footer {
   line-height: 1.6;
   color: #444;
   text-align: justify;
+}
+
+.project-info ul {
+    margin-top: 10px;
+    padding-left: 20px;  /* jarak bullet */
+}
+
+.project-info ul li {
+    font-size: 14.5px;       /* sama seperti p */
+    color: #444;             /* sama seperti p */
+    line-height: 1.6;        /* sama seperti p */
+    margin-bottom: 6px;      /* biar lebih rapi */
+    text-align: justify;     /* seragam */
 }
 
 .tech-stack {
