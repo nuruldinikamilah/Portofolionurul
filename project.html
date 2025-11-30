@@ -73,8 +73,35 @@
       </div>
     </div>
     
-    
-    <!-- Project Empat -->
+    <!--Project Lima-->
+    <div class="project-list">
+      <div class="project-card">
+        <div class="project-image-wrapper">
+          <div class="project-label">AI - On Progress</div>
+          <img src="image/rag.png" class="project-img">
+        </div>
+        <div class="project-info">
+          <h2>Exploring Document Retrieval Using Retrieval-Augmented Generation (RAG)</h2>
+          <p>
+            This project explores the fundamentals of Retrieval-Augmented Generation (RAG) by building a custom
+            document retrieval pipeline from scratch. The system processes markdown-based study documents, splits them into optimized text chunks, converts each chunk into dense vector embeddings using the Hugging Face model `sentence-transformers/all-MiniLM-L6-v2`, 
+            and stores them efficiently using ChromaDB for fast semantic retrieval.
+          </p>
+          <ul>
+            <li>Document loader: Reads and extracts content from `.md` files placed in the `/docs` directory using LangChain’s `DirectoryLoader`.</li>
+            <li>Text Chunking: Utilizes `CharacterTextSplitter` to break documents into manageable text chunks to improve embedding and retrieval quality.</li>
+            <li>Embedding and Vector Storage: Leverages `sentence-transformers/all-MiniLM-L6-v2` to convert chunks into embeddings and stores them using ChromaDB with persistent storage.</li>
+          </ul>
+          <p class="tools-used">Python (LangChain, ChromaDB, HuggingFace Embeddings), Sentence Transformers (all-MiniLM-L6-v2), Markdown document processing </p>
+          <p class="details-title">Check For More Details</p>
+          <div class="button-group">
+            <a href="https://github.com/nuruldinikamilah/rag-langchain.git" target="_blank" class="btn-yellow">Github</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Project Empat-->
     <div class="project-list">
       <div class="project-card">
         <div class="project-image-wrapper">
@@ -105,7 +132,7 @@
       </div>
     </div>
 
-    <!-- Project Lima -->
+    <!-- Project Lima
     <div class="project-list">
       <div class="project-card">
         <div class="project-image-wrapper">
@@ -125,7 +152,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <!-- Project Tiga -->
     <div class="project-list">
